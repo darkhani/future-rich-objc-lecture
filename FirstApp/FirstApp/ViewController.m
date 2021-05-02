@@ -76,6 +76,21 @@
     NSLog(@"===== MU ARR =========");
     [self showItem:muArr];
     
+    NSLog(@"\n\n===== NSDictionary =====\n\n");
+    NSString *str = @"{\"company\":\"ideatec\",\"name\":\"HanIT\"}";
+    NSData *jsonData = [str dataUsingEncoding:NSUTF8StringEncoding];
+    NSDictionary *resultDic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingFragmentsAllowed error:nil];
+    NSLog(@"%@",resultDic);
+    NSLog(@"resultDic의 모든 Key >>> %@",[resultDic allKeys]);
+    NSLog(@"resultDic의 모든 Key >>> %@",[resultDic allValues]);
+    NSLog(@"resultDic[\"company\"] >>> %@",[resultDic objectForKey:@"company"]);
+    
+    NSMutableDictionary *muDic = [[NSMutableDictionary alloc] initWithDictionary:resultDic];
+    [muDic setObject:@"010-2085-8078" forKey:@"cellPhone"];
+    
+    NSLog(@"muDic : %@",muDic);
+    
+    
 }
 
 -(void) showItem:(id)paramArr {
