@@ -14,6 +14,7 @@
 		7D60CFC6263EA74F00463F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D60CFC5263EA74F00463F20 /* Assets.xcassets */; };
 		7D60CFC9263EA74F00463F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D60CFC7263EA74F00463F20 /* LaunchScreen.storyboard */; };
 		7D60CFCC263EA74F00463F20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D60CFCB263EA74F00463F20 /* main.m */; };
+		7D60CFDA263ECEEB00463F20 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D60CFD8263ECEEB00463F20 /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		7D60CFC8263EA74F00463F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D60CFCA263EA74F00463F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D60CFCB263EA74F00463F20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D60CFD8263ECEEB00463F20 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		7D60CFD9263ECEEB00463F20 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				7D60CFC7263EA74F00463F20 /* LaunchScreen.storyboard */,
 				7D60CFCA263EA74F00463F20 /* Info.plist */,
 				7D60CFCB263EA74F00463F20 /* main.m */,
+				7D60CFD9263ECEEB00463F20 /* Rectangle.h */,
+				7D60CFD8263ECEEB00463F20 /* Rectangle.m */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				7D60CFBB263EA74D00463F20 /* AppDelegate.m in Sources */,
 				7D60CFCC263EA74F00463F20 /* main.m in Sources */,
 				7D60CFBE263EA74D00463F20 /* SceneDelegate.m in Sources */,
+				7D60CFDA263ECEEB00463F20 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
