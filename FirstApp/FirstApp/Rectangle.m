@@ -8,21 +8,23 @@
 #import "Rectangle.h"
 
 @implementation Rectangle
--(int)width {
-    return width;
-}
+@synthesize width,height;
 
--(void)setWidth:(int)newWidth {
-    width=newWidth;
-}
-
--(int)height {
-    return height;
-}
-
--(void)setHeight:(int)newHeight {
-    height=newHeight;
-}
+//-(int)width {
+//    return width;
+//}
+//
+//-(void)setWidth:(int)newWidth {
+//    width=newWidth;
+//}
+//
+//-(int)height {
+//    return height;
+//}
+//
+//-(void)setHeight:(int)newHeight {
+//    height=newHeight;
+//}
 
 -(void)setWidth:(int)newWidth height:(int)newHeight {
     [self setWidth:newWidth];

@@ -14,13 +14,18 @@ NS_ASSUME_NONNULL_BEGIN
     int height;
 }
 
--(int) width;
--(void)setWidth:(int)newWidth;
--(int)height;
--(void)setHeight:(int)newHeight;
+//-(int) width;
+//-(void)setWidth:(int)newWidth;
+@property int width;
+
+//-(int)height;
+//-(void)setHeight:(int)newHeight;
+@property int height;
+
 -(void)setWidth:(int)newWidth height:(int)newHeight;
 -(int)size;
--(BOOL)isSquare;
+//-(BOOL)isSquare;
+@property (readonly) BOOL isSquare; //readonly = getter만 허용
 
 @end
 
