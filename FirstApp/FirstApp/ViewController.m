@@ -20,6 +20,7 @@
     [super viewDidLoad];
     [self rectangleLogic];
     [self stringLogic];
+    [self collectionLogic];
 }
 
 -(void) rectangleLogic {
@@ -53,4 +54,33 @@
     }
 }
 
+-(void) collectionLogic {
+    NSString *tData = @"password";
+    NSData *encodeData = [tData dataUsingEncoding:NSUTF8StringEncoding];
+    NSString *base64String = [encodeData base64EncodedStringWithOptions:0];
+    NSLog(@"Encode String Value: %@", base64String);
+
+    NSData *decodedData = [[NSData alloc] initWithBase64EncodedString:base64String options:0];
+    NSString *decodedString = [[NSString alloc] initWithData:decodedData encoding:NSUTF8StringEncoding];
+    NSLog(@"Decode String Value: %@", decodedString);
+    
+    NSArray *arr = [NSArray arrayWithObjects:@1,@"2",@3,decodedData, nil];
+//    NSArray *arr = @[@1,@"2",@3,decodedData];
+    [self showItem:arr];
+    [arr count];
+    NSLog(@"3번째 아이템 : %@",[arr objectAtIndex:2]);
+    
+    NSMutableArray *muArr = [[NSMutableArray alloc] initWithArray:arr];
+    [muArr addObject:@"base64"];
+    [muArr addObject:@789];
+    NSLog(@"===== MU ARR =========");
+    [self showItem:muArr];
+    
+}
+
+-(void) showItem:(id)paramArr {
+    for (id item in paramArr) {
+        NSLog(@"%@",item);
+    }
+}
 @end
