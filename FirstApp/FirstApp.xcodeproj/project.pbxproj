@@ -15,6 +15,7 @@
 		7D60CFC9263EA74F00463F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D60CFC7263EA74F00463F20 /* LaunchScreen.storyboard */; };
 		7D60CFCC263EA74F00463F20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D60CFCB263EA74F00463F20 /* main.m */; };
 		7D60CFDA263ECEEB00463F20 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D60CFD8263ECEEB00463F20 /* Rectangle.m */; };
+		7D60CFDE263EE54700463F20 /* IdeatecHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D60CFDD263EE54700463F20 /* IdeatecHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		7D60CFCB263EA74F00463F20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D60CFD8263ECEEB00463F20 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 		7D60CFD9263ECEEB00463F20 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		7D60CFDC263EE54700463F20 /* IdeatecHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdeatecHelper.h; sourceTree = "<group>"; };
+		7D60CFDD263EE54700463F20 /* IdeatecHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdeatecHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				7D60CFCB263EA74F00463F20 /* main.m */,
 				7D60CFD9263ECEEB00463F20 /* Rectangle.h */,
 				7D60CFD8263ECEEB00463F20 /* Rectangle.m */,
+				7D60CFDC263EE54700463F20 /* IdeatecHelper.h */,
+				7D60CFDD263EE54700463F20 /* IdeatecHelper.m */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D60CFC1263EA74D00463F20 /* ViewController.m in Sources */,
+				7D60CFDE263EE54700463F20 /* IdeatecHelper.m in Sources */,
 				7D60CFBB263EA74D00463F20 /* AppDelegate.m in Sources */,
 				7D60CFCC263EA74F00463F20 /* main.m in Sources */,
 				7D60CFBE263EA74D00463F20 /* SceneDelegate.m in Sources */,

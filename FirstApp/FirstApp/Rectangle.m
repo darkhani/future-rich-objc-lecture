@@ -10,21 +10,6 @@
 @implementation Rectangle
 @synthesize width,height;
 
-//-(int)width {
-//    return width;
-//}
-//
-//-(void)setWidth:(int)newWidth {
-//    width=newWidth;
-//}
-//
-//-(int)height {
-//    return height;
-//}
-//
-//-(void)setHeight:(int)newHeight {
-//    height=newHeight;
-//}
 
 -(void)setWidth:(int)newWidth height:(int)newHeight {
     [self setWidth:newWidth];
